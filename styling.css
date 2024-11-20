@@ -1,0 +1,61 @@
+@import url(https://fonts.google.com/specimen/Inter);
+
+h1 {
+    font-family: 'inter';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 2.25rem;
+}
+
+h2 {
+    font-family: 'inter';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5rem;
+}
+
+body {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1rem;
+
+    display: grid;
+    
+    grid-template-areas: 
+        "header"
+        "section";    
+}
+
+a {
+    color: #4E80EE;
+}
+
+header {
+    grid-area:header;
+    text-align: center;
+    
+}
+
+section {
+    grid-area: section;
+    border: solid;
+    background-color:#F8FAFC;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    border: dotted;
+    max-inline-size: 66ch;
+}
+
+article:nth-of-type(2) {
+    border-top: solid #D2D5DA;
+    border-top-width: 70%;
+}
+
+
