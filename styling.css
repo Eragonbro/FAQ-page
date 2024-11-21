@@ -39,7 +39,6 @@ header {
 
 section {
     grid-area: section;
-    border: solid;
     background-color:#F8FAFC;
 
     display: flex;
@@ -49,7 +48,6 @@ section {
 }
 
 article {
-    border: dotted;
     max-inline-size: 66ch;
 }
 
